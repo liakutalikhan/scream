@@ -72,13 +72,20 @@
  -moz-animation: cssload-rotate 2300ms linear infinite
 }
 
-      .contact_no img{
+.contact_no img{
          width: 250px;
      }
+.contact_no a{
+    display: block;
+}
 .img_max{
     max-width: 600px;
     margin: auto;
     display: block;
+}
+
+.owl-item.active p{
+    max-width: 335px;
 }
  @keyframes cssload-rotate {
  100% {
