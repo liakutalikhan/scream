@@ -118,7 +118,10 @@ ul.IconList li a img {
     margin: auto;
     display: block;
 }
-
+.row_fix{
+margin-left:0;
+margin-right:0;
+}
 .owl-item.active p {
     max-width: 335px;
 }
